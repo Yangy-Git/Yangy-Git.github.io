@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>常见异常</title>
+      <link href="/2020/05/15/%E5%B8%B8%E8%A7%81%E5%BC%82%E5%B8%B8-md/"/>
+      <url>/2020/05/15/%E5%B8%B8%E8%A7%81%E5%BC%82%E5%B8%B8-md/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>java中常见异常</p><a id="more"></a><h6 id="1、空指针异常-NullPointerException"><a href="#1、空指针异常-NullPointerException" class="headerlink" title="1、空指针异常  NullPointerException"></a>1、空指针异常  NullPointerException</h6><h6 id="2、数组下标越界异常-ArrayIndexOutofBoundsException"><a href="#2、数组下标越界异常-ArrayIndexOutofBoundsException" class="headerlink" title="2、数组下标越界异常 ArrayIndexOutofBoundsException"></a>2、数组下标越界异常 ArrayIndexOutofBoundsException</h6><h6 id="3、类型转换异常-ClassCastException"><a href="#3、类型转换异常-ClassCastException" class="headerlink" title="3、类型转换异常  ClassCastException"></a>3、类型转换异常  ClassCastException</h6><h6 id="4、类找不到异常-ClassNotFoundException"><a href="#4、类找不到异常-ClassNotFoundException" class="headerlink" title="4、类找不到异常  ClassNotFoundException"></a>4、类找不到异常  ClassNotFoundException</h6><h6 id="5、sql语句异常-SqlException"><a href="#5、sql语句异常-SqlException" class="headerlink" title="5、sql语句异常   SqlException"></a>5、sql语句异常   SqlException</h6><h6 id="6、文件读写相关的异常-IOException"><a href="#6、文件读写相关的异常-IOException" class="headerlink" title="6、文件读写相关的异常 IOException"></a>6、文件读写相关的异常 IOException</h6><h6 id="7、文件找不到异常-FileNotFoundException"><a href="#7、文件找不到异常-FileNotFoundException" class="headerlink" title="7、文件找不到异常  FileNotFoundException"></a>7、文件找不到异常  FileNotFoundException</h6><h6 id="8、数字格式异常-NumberFormatException"><a href="#8、数字格式异常-NumberFormatException" class="headerlink" title="8、数字格式异常  NumberFormatException"></a>8、数字格式异常  NumberFormatException</h6>]]></content>
+      
+      
+      <categories>
+          
+          <category> java 异常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 异常 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hell java</title>
       <link href="/2020/05/10/hell-java/"/>
       <url>/2020/05/10/hell-java/</url>
