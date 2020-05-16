@@ -363,7 +363,7 @@
     <meting-js
       mini='true'
       autoplay='true'
-      volume='0.7'
+      volume='0.6'
       loop='all'
       order='list'
       server='netease'
@@ -616,19 +616,23 @@
 </aside>
 
 
+
+
+
+
   
   <footer class="clearfix">
     <br><br>
     
       
-        <div class="aplayer-container">
+        <div class="aplayer-container" style='color:black'>
           
 
   
     <meting-js
       theme='#1BCDFC'
       autoplay='true'
-      volume='0.7'
+      volume='0.6'
       loop='all'
       order='list'
       fixed='false'
@@ -647,10 +651,10 @@
     
       
         <br>
-        <div class="social-wrapper">
+        <div class="social-wrapper" style='color:black'>
           
             
-              <a href="/atom.xml"
+              <a  href="/atom.xml"
                 class="social fas fa-rss flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer">
@@ -658,7 +662,7 @@
             
           
             
-              <a href="mailto:1461540572@qq.com"
+              <a  href="mailto:1461540572@qq.com"
                 class="social fas fa-envelope flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer">
@@ -666,7 +670,7 @@
             
           
             
-              <a href="https://github.com/yangyang0520"
+              <a  href="https://github.com/yangyang0520"
                 class="social fab fa-github flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer">
@@ -674,7 +678,7 @@
             
           
             
-              <a href="https://music.163.com/#/user/home?id=63035382"
+              <a  href="https://music.163.com/#/user/home?id=63035382"
                 class="social fas fa-headphones-alt flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer">
@@ -685,7 +689,7 @@
       
     
       
-        <div><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
+        <div style="color:black"><p>博客内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
 </div>
       
     
@@ -693,7 +697,7 @@
         本站使用
         <a href="https://volantis.js.org/" target="_blank" class="codename">Volantis</a>
         作为主题，总访问量为
-          <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+          <span id="busuanzi_value_site_pv" style='color:black'><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
           次
         
 		 
@@ -702,7 +706,7 @@
 
  
 		<br/>
-		<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+		<span id="timeDate" style="color:black">载入天数...</span><span id="times" style="color:black">载入时分秒...</span>
 <script>
     var now = new Date(); 
     function createtime() { 
@@ -722,7 +726,7 @@ setInterval("createtime()",250);
       
     
       
-        <div class='copyright'>
+        <div class='copyright' style='color:black'>
         <p><a href="https://yangyang0520.github.io">Copyright © 2019-2020 疯狂的李</a></p>
 
         </div>
@@ -786,47 +790,6 @@ setInterval("createtime()",250);
   <script defer src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
 
 
-
-  
-  
-  
-    
-<script src="https://cdn.jsdelivr.net/npm/jquery-backstretch@2.1.18/jquery.backstretch.min.js"></script>
-
-    <script type="text/javascript">
-      $(function(){
-        var imgs=["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg"];
-        if ('true' == 'true') {
-          function shuffle(arr){
-            /*From countercurrent-time*/
-            var n = arr.length;
-            while(n--) {
-              var index = Math.floor(Math.random() * n);
-              var temp = arr[index];
-              arr[index] = arr[n];
-              arr[n] = temp;
-            }
-          }
-          shuffle(imgs);
-        }
-        if ('.cover') {
-          $('.cover').backstretch(
-            imgs,
-          {
-            duration: "20000",
-            fade: "1500"
-          });
-        } else {
-          $.backstretch(
-            imgs,
-          {
-            duration: "20000",
-            fade: "1500"
-          });
-        }
-      });
-    </script>
-  
 
 
 
@@ -979,5 +942,14 @@ setInterval("createtime()",250);
 
 
   <script>setLoadingBarProgress(100);</script>
+  
+  <!--动态线条背景-->
+<script type="text/javascript"
+	color="220,220,220" opacity='1' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
+
+<!-- 数字雨 -->
+  <canvas id="canvas" width="1440" height="900" ></canvas>
+  <script type="text/javascript" src="/js/DigitalRain.js"></script>
 </body>
 </html>
